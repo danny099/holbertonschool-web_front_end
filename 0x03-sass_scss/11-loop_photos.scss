@@ -1,0 +1,8 @@
+/**/
+@import "11-photos.scss";
+
+@each $data in $list-names {
+  .photo-#{$data} {
+    background: image-url("photos/#{$data}.jpg") no-repeat;
+  }
+}
